@@ -211,10 +211,10 @@ export const teamRegions: TeamRegion[] = [
         platform: "mixed",
         skillTier: "3.3K",
         players: [
-          { username: "Tyraxxis", country: "xx", role: "tank" },
+          { username: "Tyraxxis", country: "gb", role: "tank" },
           { username: "LucaDiogo", country: "lu", role: "support" },
-          { username: "ama", country: "xx", role: "support" },
-          { username: "ItsToshi", country: "xx", role: "flex" },
+          { username: "ama", country: "fr", role: "support" },
+          { username: "ItsToshi", country: "gb", role: "flex" },
         ],
         staff: [
           { username: "LucaDiogo", country: "lu", role: "manager" },
