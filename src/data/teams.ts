@@ -104,8 +104,6 @@ export const teamRegions: TeamRegion[] = [
           { username: "dididoo", country: "de", role: "support" },
         ],
         staff: [
-          { username: "Kepler", country: "dz", role: "manager" },
-          { username: "Hurdle", country: "de", role: "manager" },
           { username: "Luna", country: "de", role: "captain" },
           { username: "Aubstacle", country: "us", role: "headCoach" },
           { username: "Lampy", country: "no", role: "coach" },
