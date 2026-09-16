@@ -205,6 +205,24 @@ export const teamRegions: TeamRegion[] = [
           { username: "Youseff", country: "ps", role: "coach" },
         ],
       },
+      {
+        id: "cuckoo",
+        name: "Cuckoo",
+        region: "EMEA",
+        color: "#97BAD6",
+        platform: "mixed",
+        skillTier: "3.3K",
+        players: [
+          { username: "Tyraxxis", country: "xx", role: "tank" },
+          { username: "LucaDiogo", country: "lu", role: "support" },
+          { username: "ama", country: "xx", role: "support" },
+          { username: "ItsToshi", country: "xx", role: "flex" },
+        ],
+        staff: [
+          { username: "LucaDiogo", country: "lu", role: "manager" },
+          { username: "Blaco", country: "dk", role: "coach" },
+        ],
+      },
     ],
   },
   {
