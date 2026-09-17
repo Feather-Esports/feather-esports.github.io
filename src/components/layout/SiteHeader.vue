@@ -39,6 +39,7 @@ function handleNavSelect(event: MouseEvent): void {
 
   event.preventDefault()
   scrollToSection(sectionId, { offset: 72, duration: 1.1 })
+  history.pushState(null, "", `#${sectionId}`)
 }
 </script>
 

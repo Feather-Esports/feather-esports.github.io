@@ -2,6 +2,7 @@
 import { useI18n } from "vue-i18n"
 
 import { teamRegions } from "@/data/teams"
+import { scrollToSection } from "@/lib/lenis"
 
 const { t } = useI18n()
 
@@ -17,7 +18,23 @@ onMounted(async () => {
     themeColorMeta.setAttribute("content", computedBg)
   }
 
-  // 2. Set up IntersectionObserver for scroll animations
+  // 2. Handle initial hash landing
+  if (window.location.hash) {
+    const sectionId = window.location.hash.replace("#", "")
+
+    const performScroll = () => {
+      window.__lenis?.resize()
+      scrollToSection(sectionId, { offset: 72, duration: 1.1 })
+    }
+
+    if (document.readyState === "complete") {
+      performScroll()
+    } else {
+      window.addEventListener("load", performScroll, { once: true })
+    }
+  }
+
+  // 3. Set up IntersectionObserver for scroll animations
   const sections = document.querySelectorAll(".content-section")
 
   sectionObserver = new IntersectionObserver(
