@@ -256,7 +256,7 @@ export const teamRegions: TeamRegion[] = [
         id: "crow",
         name: "Crow",
         region: "NA",
-        color: "##7C1AC7",
+        color: "#7C1AC7",
         platform: "pc",
         skillTier: "Open",
         players: [{ username: "Crow", country: "xx", role: "tank" }],
