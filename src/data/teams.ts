@@ -212,6 +212,7 @@ export const teamRegions: TeamRegion[] = [
         skillTier: "3.3K",
         players: [
           { username: "Tyraxxis", country: "gb", role: "tank" },
+          { username: "FR4M3D", country: "gb", role: "damage" },
           { username: "LucaDiogo", country: "lu", role: "support" },
           { username: "ama", country: "fr", role: "support" },
           { username: "ItsToshi", country: "gb", role: "flex" },
@@ -249,6 +250,20 @@ export const teamRegions: TeamRegion[] = [
           { username: "Kepler", country: "dz", role: "manager" },
           { username: "Dark", country: "kw", role: "captain" },
           { username: "Justin", country: "pl", role: "coach" },
+        ],
+      },
+      {
+        id: "crow",
+        name: "Crow",
+        region: "NA",
+        color: "##7C1AC7",
+        platform: "pc",
+        skillTier: "Open",
+        players: [{ username: "Crow", country: "xx", role: "tank" }],
+        staff: [
+          { username: "Azrael", country: "us", role: "manager" },
+          { username: "Kepler", country: "dz", role: "manager" },
+          { username: "Crow", country: "xx", role: "captain" },
         ],
       },
       {
