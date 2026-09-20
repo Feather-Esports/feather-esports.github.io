@@ -180,7 +180,10 @@ export const teamRegions: TeamRegion[] = [
         color: "#C7C7C7",
         platform: "mixed",
         skillTier: "3.3K",
-        players: [{ username: "101", country: "gb", role: "damage" }],
+        players: [
+          { username: "CDN", country: "xx", role: "damage" },
+          { username: "101", country: "gb", role: "damage" },
+        ],
         staff: [
           { username: "hori", country: "gb", role: "manager" },
           { username: "hori", country: "gb", role: "coach" },
@@ -249,7 +252,6 @@ export const teamRegions: TeamRegion[] = [
         staff: [
           { username: "Kepler", country: "dz", role: "manager" },
           { username: "Dark", country: "kw", role: "captain" },
-          { username: "Justin", country: "pl", role: "coach" },
         ],
       },
       {
@@ -300,7 +302,10 @@ export const teamRegions: TeamRegion[] = [
           { username: "Jwam", country: "mx", role: "support" },
           { username: "Kirby", country: "us", role: "damage", sub: true },
         ],
-        staff: [{ username: "Azrael", country: "us", role: "manager" }],
+        staff: [
+          { username: "Azrael", country: "us", role: "manager" },
+          { username: "Aubstacle", country: "us", role: "coach" },
+        ],
       },
       {
         id: "kagu",
