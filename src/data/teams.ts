@@ -181,7 +181,7 @@ export const teamRegions: TeamRegion[] = [
         platform: "mixed",
         skillTier: "3.3K",
         players: [
-          { username: "CDN", country: "xx", role: "damage" },
+          { username: "CDN", country: "ro", role: "damage" },
           { username: "101", country: "gb", role: "damage" },
         ],
         staff: [
