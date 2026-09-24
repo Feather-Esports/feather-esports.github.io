@@ -161,7 +161,7 @@ export const teamRegions: TeamRegion[] = [
         region: "EMEA",
         color: "#BFD92A",
         platform: "pc",
-        skillTier: "3.5K",
+        skillTier: "3.8K",
         players: [
           { username: "iced", country: "mx", role: "tank" },
           { username: "ninja", country: "dz", role: "damage" },
