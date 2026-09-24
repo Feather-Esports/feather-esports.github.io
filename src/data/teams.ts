@@ -80,11 +80,13 @@ export const teamRegions: TeamRegion[] = [
           { username: "hori", country: "gb", role: "damage" },
           { username: "Prosper", country: "gb", role: "damage" },
           { username: "Octo", country: "de", role: "support" },
+          { username: "Violet", country: "de", role: "support" },
           { username: "fifi", country: "pl", role: "support" },
         ],
         staff: [
           { username: "Prosper", country: "gb", role: "manager" },
           { username: "hori", country: "gb", role: "manager" },
+          { username: "fifi", country: "pl", role: "manager" },
           { username: "hori", country: "gb", role: "captain" },
           { username: "hambal", country: "nl", role: "coach" },
         ],
@@ -115,7 +117,7 @@ export const teamRegions: TeamRegion[] = [
         region: "EMEA",
         color: "#5C33EE",
         platform: "pc",
-        skillTier: "4.4K",
+        skillTier: "Open",
         players: [
           { username: "Kepler", country: "dz", role: "tank" },
           { username: "Yuri", country: "nl", role: "tank" },
@@ -160,17 +162,32 @@ export const teamRegions: TeamRegion[] = [
         platform: "pc",
         skillTier: "3.5K",
         players: [
-          { username: "ELWardador", country: "gb", role: "tank" },
           { username: "iced", country: "mx", role: "tank" },
-          { username: "Swifty", country: "gb", role: "damage" },
           { username: "ninja", country: "dz", role: "damage" },
           { username: "Traceless", country: "nl", role: "support" },
-          { username: "Sid", country: "gb", role: "support" },
-          { username: "Charley", country: "gb", role: "flex", sub: true },
         ],
         staff: [
-          { username: "ELWardador", country: "gb", role: "manager" },
+          { username: "Luna", country: "de", role: "manager" },
+          { username: "Kepler", country: "dz", role: "manager" },
+          { username: "Sid", country: "gb", role: "manager" },
           { username: "Luna", country: "de", role: "coach" },
+        ],
+      },
+      {
+        id: "canary",
+        name: "Canary",
+        region: "EMEA",
+        color: "#CC92E6",
+        platform: "pc",
+        skillTier: "3.5K",
+        players: [
+          { username: "Alex", country: "dk", role: "damage" },
+          { username: "Pinkie", country: "dz", role: "support" },
+          { username: "isa", country: "se", role: "flex" },
+        ],
+        staff: [
+          { username: "Yuri", country: "nl", role: "manager" },
+          { username: "Youseff", country: "ps", role: "coach" },
         ],
       },
       {
@@ -186,24 +203,8 @@ export const teamRegions: TeamRegion[] = [
         ],
         staff: [
           { username: "hori", country: "gb", role: "manager" },
+          { username: "CDN", country: "ro", role: "captain" },
           { username: "hori", country: "gb", role: "coach" },
-        ],
-      },
-      {
-        id: "canary",
-        name: "Canary",
-        region: "EMEA",
-        color: "#CC92E6",
-        platform: "mixed",
-        skillTier: "3.3K",
-        players: [
-          { username: "Alex", country: "dk", role: "damage" },
-          { username: "Pinkie", country: "dz", role: "support" },
-          { username: "isa", country: "se", role: "flex" },
-        ],
-        staff: [
-          { username: "Yuri", country: "nl", role: "manager" },
-          { username: "Youseff", country: "ps", role: "coach" },
         ],
       },
       {
@@ -299,8 +300,10 @@ export const teamRegions: TeamRegion[] = [
         skillTier: "4K",
         players: [
           { username: "Azrael", country: "us", role: "tank" },
-          { username: "Jwam", country: "mx", role: "support" },
+          { username: "SHER", country: "xx", role: "damage" },
           { username: "Kirby", country: "us", role: "damage", sub: true },
+          { username: "Jwam", country: "mx", role: "support" },
+          { username: "Doq", country: "xx", role: "support" },
         ],
         staff: [
           { username: "Azrael", country: "us", role: "manager" },
