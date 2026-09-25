@@ -145,6 +145,7 @@ export const teamRegions: TeamRegion[] = [
         platform: "pc",
         skillTier: "4.1K",
         players: [
+          { username: "Gambledore", country: "xx", role: "tank" },
           { username: "gUigo", country: "pt", role: "damage" },
           { username: "jevr", country: "ru", role: "damage" },
           { username: "Hagust", country: "no", role: "support" },
@@ -153,6 +154,7 @@ export const teamRegions: TeamRegion[] = [
         staff: [
           { username: "Hurdle", country: "de", role: "manager" },
           { username: "Hagust", country: "no", role: "captain" },
+          { username: "gUigo", country: "pt", role: "captain" },
         ],
       },
       {
@@ -269,6 +271,7 @@ export const teamRegions: TeamRegion[] = [
           { username: "Kersite", country: "us", role: "damage" },
           { username: "Gilgamesh", country: "us", role: "damage" },
           { username: "Genesis", country: "us", role: "support" },
+          { username: "Starkiller", country: "us", role: "support" },
           { username: "worryn", country: "us", role: "flex" },
         ],
         staff: [
