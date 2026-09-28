@@ -79,7 +79,6 @@ export const teamRegions: TeamRegion[] = [
           { username: "jop", country: "gb", role: "damage" },
           { username: "Snow", country: "es", role: "damage" },
           { username: "Luna", country: "de", role: "support" },
-          { username: "dididoo", country: "de", role: "support" },
         ],
         staff: [
           { username: "Luna", country: "de", role: "captain" },
@@ -166,6 +165,7 @@ export const teamRegions: TeamRegion[] = [
         skillTier: "3.8K",
         players: [
           { username: "iced", country: "mx", role: "tank" },
+          { username: "Haga", country: "xx", role: "damage" },
           { username: "ninja", country: "dz", role: "damage" },
           { username: "Traceless", country: "nl", role: "support" },
         ],
@@ -256,6 +256,7 @@ export const teamRegions: TeamRegion[] = [
         staff: [
           { username: "Kepler", country: "dz", role: "manager" },
           { username: "Dark", country: "kw", role: "captain" },
+          { username: "charlie", country: "xx", role: "coach" },
         ],
       },
       {
@@ -293,6 +294,7 @@ export const teamRegions: TeamRegion[] = [
           { username: "Azrael", country: "us", role: "manager" },
           { username: "Kepler", country: "dz", role: "manager" },
           { username: "Crow", country: "xx", role: "captain" },
+          { username: "charlie", country: "xx", role: "coach" },
         ],
       },
       {
@@ -350,7 +352,8 @@ export const teamRegions: TeamRegion[] = [
           { username: "Spinda", country: "us", role: "support" },
           { username: "Holly", country: "us", role: "support" },
           { username: "autumn", country: "us", role: "support" },
-          { username: "Starvii", country: "xx", role: "support", sub: true },
+          { username: "Starvii", country: "us", role: "support", sub: true },
+          { username: "Yurei", country: "us", role: "flex" },
         ],
         staff: [
           { username: "femsick", country: "ie", role: "manager" },
