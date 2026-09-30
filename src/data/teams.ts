@@ -317,13 +317,13 @@ export const teamRegions: TeamRegion[] = [
         players: [
           { username: "Azrael", country: "us", role: "tank" },
           { username: "NayNay", country: "us", role: "damage" },
-          { username: "Kirby", country: "us", role: "damage" },
+          { username: "Kirby", country: "mx", role: "damage" },
           { username: "femsick", country: "ie", role: "support" },
           { username: "Jwam", country: "mx", role: "support" },
         ],
         staff: [
           { username: "Azrael", country: "us", role: "manager" },
-          { username: "Kirby", country: "us", role: "captain" },
+          { username: "Kirby", country: "mx", role: "captain" },
           { username: "Jwam", country: "mx", role: "captain" },
         ],
       },
@@ -337,7 +337,7 @@ export const teamRegions: TeamRegion[] = [
         players: [
           { username: "Azrael", country: "us", role: "tank" },
           { username: "SHER", country: "xx", role: "damage" },
-          { username: "Kirby", country: "us", role: "damage", sub: true },
+          { username: "Kirby", country: "mx", role: "damage", sub: true },
           { username: "Jwam", country: "mx", role: "support" },
           { username: "Doq", country: "xx", role: "support" },
         ],
