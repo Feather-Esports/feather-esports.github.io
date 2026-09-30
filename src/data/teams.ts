@@ -312,8 +312,8 @@ export const teamRegions: TeamRegion[] = [
         name: "Shoebill",
         region: "NA",
         color: "#436175",
-        platform: "pc",
-        skillTier: "Open",
+        platform: "mixed",
+        skillTier: "4.4K",
         players: [
           { username: "Azrael", country: "us", role: "tank" },
           { username: "NayNay", country: "us", role: "damage" },
@@ -333,7 +333,7 @@ export const teamRegions: TeamRegion[] = [
         region: "NA",
         color: "#F59B46",
         platform: "pc",
-        skillTier: "4K",
+        skillTier: "4.3K",
         players: [
           { username: "Azrael", country: "us", role: "tank" },
           { username: "SHER", country: "xx", role: "damage" },
