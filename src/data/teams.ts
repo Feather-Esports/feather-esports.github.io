@@ -330,25 +330,6 @@ export const teamRegions: TeamRegion[] = [
         ],
       },
       {
-        id: "phoenix",
-        name: "Phoenix",
-        region: "NA",
-        color: "#F59B46",
-        platform: "pc",
-        skillTier: "4.3K",
-        players: [
-          { username: "Azrael", country: "us", role: "tank" },
-          { username: "SHER", country: "xx", role: "damage" },
-          { username: "Kirby", country: "mx", role: "damage", sub: true },
-          { username: "Jwam", country: "mx", role: "support" },
-          { username: "Doq", country: "xx", role: "support" },
-        ],
-        staff: [
-          { username: "Azrael", country: "us", role: "manager" },
-          { username: "Aubstacle", country: "us", role: "coach" },
-        ],
-      },
-      {
         id: "kagu",
         name: "Kagu",
         region: "NA",
