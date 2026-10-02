@@ -165,7 +165,6 @@ export const teamRegions: TeamRegion[] = [
         skillTier: "3.8K",
         players: [
           { username: "iced", country: "mx", role: "tank" },
-          { username: "Haga", country: "xx", role: "damage" },
           { username: "ninja", country: "dz", role: "damage" },
           { username: "Traceless", country: "nl", role: "support" },
         ],
@@ -289,7 +288,10 @@ export const teamRegions: TeamRegion[] = [
         color: "#7C1AC7",
         platform: "pc",
         skillTier: "Open",
-        players: [{ username: "Crow", country: "xx", role: "tank" }],
+        players: [
+          { username: "Crow", country: "xx", role: "tank" },
+          { username: "Azrael", country: "us", role: "tank" },
+        ],
         staff: [
           { username: "Azrael", country: "us", role: "manager" },
           { username: "Kepler", country: "dz", role: "manager" },
