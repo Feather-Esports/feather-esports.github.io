@@ -119,8 +119,8 @@ export const teamRegions: TeamRegion[] = [
         platform: "pc",
         skillTier: "Open",
         players: [
-          { username: "Kepler", country: "dz", role: "tank" },
           { username: "Yuri", country: "nl", role: "tank" },
+          { username: "Kepler", country: "dz", role: "tank", sub: true },
           { username: "yiruzu", country: "de", role: "damage" },
           { username: "Swifty", country: "gb", role: "damage" },
           { username: "Blaco", country: "dk", role: "support" },
