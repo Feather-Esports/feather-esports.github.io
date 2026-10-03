@@ -123,7 +123,6 @@ export const teamRegions: TeamRegion[] = [
           { username: "Yuri", country: "nl", role: "tank" },
           { username: "yiruzu", country: "de", role: "damage" },
           { username: "Swifty", country: "gb", role: "damage" },
-          { username: "Orpheus", country: "de", role: "damage", dnp: true },
           { username: "Blaco", country: "dk", role: "support" },
           { username: "Sid", country: "gb", role: "support" },
         ],
@@ -132,8 +131,7 @@ export const teamRegions: TeamRegion[] = [
           { username: "yiruzu", country: "de", role: "manager" },
           { username: "Blaco", country: "dk", role: "captain" },
           { username: "Yuri", country: "nl", role: "captain" },
-          { username: "Aubstacle", country: "us", role: "headCoach" },
-          { username: "Orpheus", country: "de", role: "coach" },
+          { username: "Aubstacle", country: "us", role: "coach" },
         ],
       },
       {
@@ -171,7 +169,7 @@ export const teamRegions: TeamRegion[] = [
         staff: [
           { username: "Luna", country: "de", role: "manager" },
           { username: "Kepler", country: "dz", role: "manager" },
-          { username: "Sid", country: "gb", role: "manager" },
+          { username: "ninja", country: "dz", role: "manager" },
           { username: "Luna", country: "de", role: "coach" },
         ],
       },
@@ -255,7 +253,7 @@ export const teamRegions: TeamRegion[] = [
         staff: [
           { username: "Kepler", country: "dz", role: "manager" },
           { username: "Dark", country: "kw", role: "captain" },
-          { username: "charlie", country: "xx", role: "coach" },
+          { username: "charlie", country: "gb", role: "coach" },
         ],
       },
       {
@@ -296,7 +294,7 @@ export const teamRegions: TeamRegion[] = [
           { username: "Azrael", country: "us", role: "manager" },
           { username: "Kepler", country: "dz", role: "manager" },
           { username: "Crow", country: "xx", role: "captain" },
-          { username: "charlie", country: "xx", role: "coach" },
+          { username: "Aubstacle", country: "us", role: "coach" },
         ],
       },
       {
@@ -307,7 +305,10 @@ export const teamRegions: TeamRegion[] = [
         platform: "pc",
         skillTier: "Open",
         players: [],
-        staff: [{ username: "Kepler", country: "dz", role: "manager" }],
+        staff: [
+          { username: "Kepler", country: "dz", role: "manager" },
+          { username: "charlie", country: "gb", role: "coach" },
+        ],
       },
       {
         id: "shoebill",
