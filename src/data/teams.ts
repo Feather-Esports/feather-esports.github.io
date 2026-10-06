@@ -135,26 +135,6 @@ export const teamRegions: TeamRegion[] = [
         ],
       },
       {
-        id: "nightjar",
-        name: "Satanic Nightjar",
-        region: "EMEA",
-        color: "#FFEA00",
-        platform: "pc",
-        skillTier: "4.1K",
-        players: [
-          { username: "Gambledore", country: "xx", role: "tank" },
-          { username: "gUigo", country: "pt", role: "damage" },
-          { username: "jevr", country: "ru", role: "damage" },
-          { username: "Hagust", country: "no", role: "support" },
-          { username: "Cat In The Row", country: "ru", role: "support" },
-        ],
-        staff: [
-          { username: "Hurdle", country: "de", role: "manager" },
-          { username: "Hagust", country: "no", role: "captain" },
-          { username: "gUigo", country: "pt", role: "captain" },
-        ],
-      },
-      {
         id: "kite",
         name: "Kite",
         region: "EMEA",
@@ -307,6 +287,7 @@ export const teamRegions: TeamRegion[] = [
         players: [],
         staff: [
           { username: "Kepler", country: "dz", role: "manager" },
+          { username: "Genesis", country: "us", role: "manager" },
           { username: "charlie", country: "gb", role: "coach" },
         ],
       },
