@@ -96,7 +96,6 @@ export const teamRegions: TeamRegion[] = [
         skillTier: "Open",
         players: [
           { username: "Divine", country: "us", role: "tank" },
-          { username: "Rose", country: "nl", role: "tank" },
           { username: "kay", country: "gb", role: "damage" },
           { username: "hori", country: "gb", role: "damage" },
           { username: "Octo", country: "de", role: "support" },
@@ -109,6 +108,16 @@ export const teamRegions: TeamRegion[] = [
           { username: "hambal", country: "nl", role: "coach" },
           { username: "Aristophanes", country: "xx", role: "coach" },
         ],
+      },
+      {
+        id: "gannet",
+        name: "Gannet",
+        region: "EMEA",
+        color: "#FFEE8C",
+        platform: "mixed",
+        skillTier: "Open",
+        players: [{ username: "Atlantic", country: "xx", role: "support" }],
+        staff: [],
       },
       {
         id: "nightwing",
@@ -143,7 +152,9 @@ export const teamRegions: TeamRegion[] = [
         players: [
           { username: "iced", country: "mx", role: "tank" },
           { username: "ninja", country: "dz", role: "damage" },
+          { username: "King", country: "dz", role: "damage" },
           { username: "Traceless", country: "nl", role: "support" },
+          { username: "Mashiro", country: "nl", role: "support" },
         ],
         staff: [
           { username: "Luna", country: "de", role: "manager" },
@@ -160,6 +171,7 @@ export const teamRegions: TeamRegion[] = [
         platform: "pc",
         skillTier: "3.5K",
         players: [
+          { username: "joury", country: "xx", role: "tank" },
           { username: "Alex", country: "dk", role: "damage" },
           { username: "Pinkie", country: "dz", role: "support" },
           { username: "isa", country: "se", role: "flex" },
@@ -269,7 +281,6 @@ export const teamRegions: TeamRegion[] = [
         players: [
           { username: "Crow", country: "xx", role: "tank" },
           { username: "Azrael", country: "us", role: "tank" },
-          { username: "ShawingIt", country: "xx", role: "damage" },
           { username: "fluidity", country: "xx", role: "damage" },
           { username: "rei", country: "xx", role: "support" },
         ],
@@ -279,20 +290,6 @@ export const teamRegions: TeamRegion[] = [
           { username: "Crow", country: "xx", role: "captain" },
           { username: "ShawingIt", country: "xx", role: "captain" },
           { username: "Aubstacle", country: "us", role: "coach" },
-        ],
-      },
-      {
-        id: "vulture",
-        name: "Vulture",
-        region: "NA",
-        color: "#C16124",
-        platform: "pc",
-        skillTier: "Open",
-        players: [],
-        staff: [
-          { username: "Kepler", country: "dz", role: "manager" },
-          { username: "Genesis", country: "us", role: "manager" },
-          { username: "charlie", country: "gb", role: "coach" },
         ],
       },
       {
