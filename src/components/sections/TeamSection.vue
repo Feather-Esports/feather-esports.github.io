@@ -104,7 +104,15 @@ const teamColumns = computed(() => {
         <div v-for="(columnTeams, colIndex) in teamColumns" :key="colIndex" class="roster-column">
           <article v-for="team in columnTeams" :key="team.id" class="team-card" :class="{ expanded: expandedTeams.has(team.id) }" :style="{ '--team-color': team.color }">
             <button type="button" class="team-card-header" :aria-expanded="expandedTeams.has(team.id)" @click="toggleTeam(team.id)">
-              <img class="team-logo" :src="teamLogos[`/src/assets/images/teams/${team.id}.webp`]" :alt="team.name" loading="eager" decoding="async" draggable="false" />
+              <img
+                v-if="teamLogos[`/src/assets/images/teams/${team.id}.webp`]"
+                class="team-logo"
+                :src="teamLogos[`/src/assets/images/teams/${team.id}.webp`]"
+                :alt="team.name"
+                loading="eager"
+                decoding="async"
+                draggable="false"
+              />
 
               <div class="team-info">
                 <span class="team-name">{{ team.name }}</span>
