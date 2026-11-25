@@ -79,6 +79,7 @@ export const teamRegions: TeamRegion[] = [
           { username: "jop", country: "gb", role: "damage" },
           { username: "Snow", country: "es", role: "damage" },
           { username: "Luna", country: "de", role: "support" },
+          { username: "Blaco", country: "dk", role: "support", sub: true },
           { username: "Aj", country: "sa", role: "support" },
         ],
         staff: [
@@ -97,14 +98,14 @@ export const teamRegions: TeamRegion[] = [
         players: [
           { username: "Divine", country: "us", role: "tank" },
           { username: "kay", country: "gb", role: "damage" },
-          { username: "Octo", country: "de", role: "support" },
+          { username: "JacKaL", country: "xx", role: "damage" },
+          { username: "pawsome", country: "xx", role: "support" },
           { username: "Violet", country: "de", role: "support" },
         ],
         staff: [
           { username: "Aj", country: "sa", role: "manager" },
           { username: "fifi", country: "pl", role: "manager" },
           { username: "Divine", country: "us", role: "captain" },
-          { username: "hambal", country: "nl", role: "coach" },
           { username: "Aristophanes", country: "xx", role: "coach" },
         ],
       },
@@ -156,7 +157,6 @@ export const teamRegions: TeamRegion[] = [
           { username: "Blaco", country: "dk", role: "support" },
           { username: "Invicta", country: "xx", role: "support" },
           { username: "Alchxmist", country: "xx", role: "support" },
-          { username: "Sid", country: "gb", role: "support" },
           { username: "Ravnge", country: "gb", role: "flex" },
           { username: "Yuri", country: "nl", role: "flex" },
         ],
@@ -192,11 +192,8 @@ export const teamRegions: TeamRegion[] = [
         platform: "pc",
         skillTier: "3.8K",
         players: [
-          { username: "iced", country: "mx", role: "tank" },
           { username: "ninja", country: "dz", role: "damage" },
-          { username: "King", country: "xx", role: "damage" },
           { username: "Traceless", country: "nl", role: "support" },
-          { username: "Mashiro", country: "xx", role: "support" },
         ],
         staff: [
           { username: "Luna", country: "de", role: "manager" },
@@ -279,12 +276,12 @@ export const teamRegions: TeamRegion[] = [
         players: [
           { username: "Throwfist", country: "us", role: "tank" },
           { username: "Dark", country: "kw", role: "damage" },
-          { username: "Cowboybvop", country: "us", role: "damage" },
+          { username: "Cowboybvop", country: "us", role: "damage", sub: true },
           { username: "22imon", country: "do", role: "support" },
-          { username: "Void", country: "us", role: "support" },
           { username: "wuoko", country: "us", role: "support" },
         ],
         staff: [
+          { username: "Spinda", country: "us", role: "manager" },
           { username: "Kepler", country: "dz", role: "manager" },
           { username: "Dark", country: "kw", role: "captain" },
           { username: "charlie", country: "gb", role: "coach" },
@@ -299,8 +296,8 @@ export const teamRegions: TeamRegion[] = [
         skillTier: "Inter",
         players: [
           { username: "oops", country: "us", role: "tank" },
-          { username: "Azrael", country: "us", role: "tank", sub: true },
           { username: "Kersite", country: "us", role: "damage" },
+          { username: "Alaska", country: "xx", role: "damage" },
           { username: "Eli", country: "us", role: "damage", sub: true },
           { username: "Genesis", country: "us", role: "support" },
           { username: "Starkiller", country: "us", role: "support" },
@@ -322,34 +319,13 @@ export const teamRegions: TeamRegion[] = [
         skillTier: "Open",
         players: [
           { username: "Crow", country: "xx", role: "tank" },
-          { username: "Azrael", country: "us", role: "tank" },
           { username: "rei", country: "xx", role: "support" },
         ],
         staff: [
-          { username: "Azrael", country: "us", role: "manager" },
+          { username: "Spinda", country: "us", role: "manager" },
           { username: "Kepler", country: "dz", role: "manager" },
           { username: "Crow", country: "xx", role: "captain" },
           { username: "Aubstacle", country: "us", role: "coach" },
-        ],
-      },
-      {
-        id: "shoebill",
-        name: "Shoebill",
-        region: "NA",
-        color: "#436175",
-        platform: "mixed",
-        skillTier: "4.4K",
-        players: [
-          { username: "Azrael", country: "us", role: "tank" },
-          { username: "NayNay", country: "us", role: "damage" },
-          { username: "Kirby", country: "mx", role: "damage" },
-          { username: "femsick", country: "ie", role: "support" },
-          { username: "Jwam", country: "mx", role: "support" },
-        ],
-        staff: [
-          { username: "Azrael", country: "us", role: "manager" },
-          { username: "Kirby", country: "mx", role: "captain" },
-          { username: "Jwam", country: "mx", role: "captain" },
         ],
       },
       {
